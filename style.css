@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+.nav-item .nav-link{
+    border-radius:8px;
+    color: black;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #edb347;
+    color: white;
+}
+#navbar form button{
+    background: orange;
+    border: none;
+}
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Dwarka";}
+    10%{content: "Prem mandir";}
+    20%{content: "Badrinath";}
+    30%{content: "Jagannath";}
+    40%{content: "Bankey Bihari";}
+    50%{content: "Nathdwara";}
+    60%{content: "Jugal Kishore";}
+    70%{content: "Mathura";}
+    80%{content: "Vrundavan";}
+    90%{content: "Gokul";}
+    100%{content: "Govind dev ji";}
+} 
+.hero.content p{
+    text-shadow: 0px 1px 1px black;
+ }
+.hero .content a{
+        padding:10px;
+        background: white;
+        color: black;
+        letter-spacing: 2px;
+        font-weight: 550;
+        text-decoration: none;
+        transition: 0.5s;
+}
+.hero .content a:hover{
+    background: #ffa500;
+    color: white;
+}
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.pack h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.pack  h1 span{
+    color: #ffa500;
+}.pack  h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}.pack  h1 span{
+    color: #ffa500;
+}
+.packages .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    background: #ffa500;
+    border-radius: 5px;
+}
+
+.book .card{
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.book .submit{
+    width: 160px;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* About Start */
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+
+/* Section Gallary Start */
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #ffa500;
+}
